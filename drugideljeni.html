@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drugi Deljeni</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h2> Uklanjanje i promena imena udaljenim repozitorijumima</h2>
+    <div>Ako želite da preimenujete referencu možete da pokrenete git remote
+        rename da promenite kratko ime udaljenom repozitorijumu.
+        Na primer, ako želite da pb preimenujete u paul, to možete uraditi
+        pomoću naredbe git remote rename:</div>
+
+    <p> $ git remote rename pb paul</p>
+    <p>$ git remote</p>
+    <p>origin</p>
+    <p>paul</p>
+    <div>Vredi napomenuti da ovo menja i imena vašim udaljenim granama. <br>
+        Ono što je ranije bilo referencirano sa pb/master se sada nalazi na paul/master.</div>
+    <div> Ako želite da uklonite udaljeni repozitorijum iz nekog razloga — pomerili ste server ili više ne koristite
+        neki
+        miror, ili možda kontributor više ne kontribuira — možete da iskoristite git remote rm:</div>
+
+
+    <p> $ git remote rm paul </p>
+    <p> $ git remote </p>
+    <p>origin </p>
+</body>
+
+</html>
